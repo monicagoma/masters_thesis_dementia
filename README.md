@@ -1,2 +1,11 @@
-# masters_thesis_dementia
-This is a repository about my master's thesis: An Artificial Intelligence Approach for Generalizability of Alzheimer’s Disease and Mild Cognitive Impairment Detection in Language. This paper is submitted in February 2022.
+# An Artificial Intelligence Approach for Generalizability of Alzheimer’s Disease and Mild Cognitive Impairment Detection in Language
+
+Submission: February 2022
+
+Abstract: 
+Language provides valuable information in early dementia recognition, as language impairment is a common characteristic of early dementia. Hence, in recent years, given the development of Natural Language Processing (NLP) and Automatic Speech Recognition (ASR), researchers have focused on applying state-of-the-art techniques on the study of early dementia recognition in language. One current limitation is a disconnection between results in previous research and clinical applications. This is, up to a great extent, due to poor standardization and data scarcity. In this thesis, we propose artificial intelligence approaches that address this challenge: the generalizability of results. These approaches include exploring deep transfer learning such as wav2vec 2.0, HuBERT, BERT and RoBERTa; exploring feature sets that are language and content-independent, applying ASR tools to obtain automatic transcripts; analyzing the smallest speech unit: phonemes; and validating the best performing models on conversational speech data from other data sources. In this paper, we analyze language in two separate modalities: speech signal and linguistic information referring to grammar and semantics. For the first modality we employ audio files and for second one transcripts extracted from the audio files. The data set employed is a customized subset of the Pitt Corpus that contains Alzheimer’s Disease and Mild Cognitive Impairment patients. Results show that speech deep transfer learning approaches not only provide a content-independent solution but also outperform ASR transcripts-based deep transfer learning methods. However, we also demonstrate that linguistic-based deep learning methods are more robust than speech-based approaches in external validation procedures. 
+
+
+Repository: 
+
+This repository aims is to contribute reproducibility of this research. Therefore, it contains the exact specification of the customized Pitt Corpus subset and external validation set. The original audio and transcripts files can be found at DementiaBank (https://dementia.talkbank.org/). 
