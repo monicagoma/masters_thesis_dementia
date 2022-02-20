@@ -8,4 +8,4 @@ Language provides valuable information in early dementia recognition, as languag
 
 Repository: 
 
-This repository aims is to contribute reproducibility of this research. Therefore, it contains the exact specification of the customized Pitt Corpus subset and external validation set. The original audio and transcripts files can be found at DementiaBank (https://dementia.talkbank.org/). 
+This repository aims to contribute reproducibility of this research. Therefore, it contains the exact specification of the customized Pitt Corpus subset and external validation set. The original audio and transcripts files can be found at DementiaBank (https://dementia.talkbank.org/). 
